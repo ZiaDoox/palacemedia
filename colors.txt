@@ -1,0 +1,4 @@
+Main color: #102341
+Secondary color: #008DD5
+
+Third color: #E43F6F
