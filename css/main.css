@@ -1246,13 +1246,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #008DD5;
+    color: #102341;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .subhead--dark {
-    color: #000000;
+    color: #FFF;
 }
 
 
@@ -2200,8 +2200,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #008DD5;
-    color: #010507;
+    background-color: #102341;
+    color: #FFF;
     position: relative;
 }
 
