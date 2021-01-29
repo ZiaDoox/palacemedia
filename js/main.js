@@ -150,6 +150,8 @@
             });
 
     };
+
+    // Stats counter
     
     var clStatCount = function() {
         
@@ -361,7 +363,7 @@
                     error: function() {
     
                         sLoader.slideUp("slow"); 
-                        $('.message-warning').html("Something went wrong. Please try again.");
+                        $('.message-warning').html("Developer Note: owner needs a Mailchimp account for this to work");
                         $('.message-warning').slideDown("slow");
     
                     }
