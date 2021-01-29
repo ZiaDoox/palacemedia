@@ -1276,6 +1276,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .display-2 {
         font-size: 4rem;
     }
+    .site-logo {
+        width: 55px !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1287,6 +1290,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
     .subhead {
         font-size: 1.5rem;
+    }
+    .site-logo {
+        width: 45px !important;
     }
 }
 
