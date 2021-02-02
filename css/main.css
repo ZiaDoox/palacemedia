@@ -633,7 +633,8 @@ form,
 	align-items: stretch;
 	text-align: center;
 	-webkit-flex: 0 1 330px;
-	flex: 0 1 330px;
+    flex: 0 1 330px;
+
 }
 
 .pricing__feature-list {
@@ -664,7 +665,7 @@ form,
 	font-family: 'Playfair Display', serif;
 	font-size: 2.35em;
     font-weight: 900;
-    color: #
+    color: #fff;
 	line-height: 1;
 	width: 290px;
 	margin: 0 auto;
