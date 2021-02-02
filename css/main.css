@@ -106,7 +106,7 @@ a:hover, a:active {
 
 
 /* ===================================================================
- * # typography & general theme styles
+ * # typography & general styles
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, 
@@ -596,6 +596,158 @@ form,
         transform: scaley(1);
     }
 }
+
+/* Pack section styles */
+
+/* C0ommon styles */
+
+.pricing {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto 3em;
+}
+
+.pricing-section {
+    background-color: #fff;
+    padding: 5rem;
+}
+
+
+.pricing__item {
+	position: relative;
+    display: -webkit-flex;
+    border-radius: 10px;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	text-align: center;
+	-webkit-flex: 0 1 330px;
+	flex: 0 1 330px;
+}
+
+.pricing__feature-list {
+	text-align: left;
+}
+
+.pricing__action {
+	color: inherit;
+	border: none;
+	background: none;
+}
+
+.pricing__action:focus {
+	outline: none;
+}
+
+
+
+/* Yama */
+.pricing--yama .pricing__item {
+	margin: 1em;
+	padding: 0 0 2em;
+	color: #fff;
+	background: #102341;
+}
+
+.pricing--yama .pricing__title {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.35em;
+	font-weight: 900;
+	line-height: 1;
+	width: 290px;
+	margin: 0 auto;
+	padding: 1em 1em 0em;
+}
+
+.pricing__amp {
+	padding: 0.15em 0 0.1em;
+	color: #fff;
+}
+
+.pricing--yama .pricing__sentence {
+	margin-bottom: 2em;
+	color: #fff;
+}
+
+.pricing--yama .pricing__price {
+	font-size: 2em;
+	font-weight: bold;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	padding: 0.75em;
+	cursor: default;
+	color: #ef7d46;
+	background: #1a181b;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.pricing--yama .pricing__item:hover .pricing__price {
+	color: #fff;
+}
+
+.pricing--yama .pricing__price::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background: #141315;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transform: translate3d(-150%,0,0) skewX(40deg);
+	transform: translate3d(-150%,0,0) skewX(40deg);
+}
+
+.pricing--yama .pricing__item:hover .pricing__price::before {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0) skewX(0deg);
+	transform: translate3d(0,0,0) skewX(0deg);
+}
+
+.pricing--yama .pricing__period {
+	font-size: 0.5em;
+	font-weight: normal;
+	display: block;
+	color: #2a272c;
+}
+
+.pricing--yama .pricing__feature-list {
+	margin: 0;
+	padding: 2em 1em;
+	list-style: none;
+	text-align: center;
+	color: #6a6563;
+}
+
+.pricing--yama .pricing__action {
+	font-weight: bold;
+	margin: 0 2em;
+	padding: 1em 2em;
+	border-radius: 4px;
+	background: #ef7d46;
+	-webkit-transition: background-color 0.3s, color 0.3s;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.pricing--yama .pricing__action:hover,
+.pricing--yama .pricing__action:focus {
+	color: #ef7d46;
+	background: #fff;
+}
+
+
 
 
 
