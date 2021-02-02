@@ -659,7 +659,8 @@ form,
 .pricing--yama .pricing__title {
 	font-family: 'Playfair Display', serif;
 	font-size: 2.35em;
-	font-weight: 900;
+    font-weight: 900;
+    color: #fff;
 	line-height: 1;
 	width: 290px;
 	margin: 0 auto;
@@ -674,6 +675,18 @@ form,
 .pricing--yama .pricing__sentence {
 	margin-bottom: 2em;
 	color: #fff;
+}
+
+.pricing--yama .pricing__img {
+
+    width: 200px;
+    height: 200px;
+    margin: auto;
+
+}
+
+.pricing--yama .gold {
+    color: goldenrod;
 }
 
 .pricing--yama .pricing__price {
@@ -734,7 +747,6 @@ form,
 .pricing--yama .pricing__action {
 	font-weight: bold;
 	margin: 0 2em;
-	
 	border-radius: 4px;
 	background: #ef7d46;
 	-webkit-transition: background-color 0.3s, color 0.3s;
