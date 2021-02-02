@@ -660,36 +660,40 @@ form,
 	margin: 1em;
 	padding: 0 0 2em;
 	color: #fff;
-	/* background: #102341; */
+    /* background: #102341; */
+    box-shadow: 2px 2px 10px grey;
 }
 
 .pricing--yama .pricing_premium {
-    background: #e65153;
+    background: rgb(162,1,3);
+    background: linear-gradient(180deg, rgba(162,1,3,1) 0%, rgba(230,81,83,1) 36%, rgba(255,114,115,1) 100%);
 }
 
 .pricing--yama .pricing_standard {
-    background: #102341;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(16,35,64,1) 36%, rgba(18,107,125,1) 100%);
 }
 
 .pricing--yama .pricing_standard  .pricing__feature {
     color:rgba(255, 255, 255, 0.8);
 }
 .pricing--yama .pricing__feature {
-    color: #000;
+    color: #fff;
     font-weight: bold;
 }
 
 
 .pricing--yama .pricing_gold {
-    background: #ffd700;
+    background: rgb(182,156,17);
+    background: linear-gradient(180deg, rgba(182,156,17,1) 0%, rgba(255,215,0,1) 36%, rgba(255,240,160,1) 100%);
 }
 
 .pricing--yama .pricing_gold .pricing__title {
-    color:rgba(0, 0, 0, 0.8);
+    color: #fff;
 }
 
 .pricing--yama .pricing_gold .pricing__amp {
-    color:rgba(0, 0, 0, 0.8);
+    color:#fff;
 }
 
 .pricing--yama .pricing_gold  .pricing__sentence {
@@ -701,7 +705,7 @@ form,
 }
 
 .pricing--yama .pricing_premium .pricing__title {
-    color:rgba(0, 0, 0, 0.8);
+    color:#fff;
 }
 
 .pricing--yama .pricing_premium .pricing__amp {
