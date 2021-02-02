@@ -734,7 +734,7 @@ form,
 .pricing--yama .pricing__action {
 	font-weight: bold;
 	margin: 0 2em;
-	padding: 1em 2em;
+	
 	border-radius: 4px;
 	background: #ef7d46;
 	-webkit-transition: background-color 0.3s, color 0.3s;
