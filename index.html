@@ -156,7 +156,7 @@
       <div class="pricing pricing--yama">
         <div class="pricing__item pricing_standard">
           <h3 class="pricing__title">
-            Pack <span class="pricing__amp">&amp;</span> Standard
+            Pack Standard
           </h3>
           <p class="pricing__sentence">Description du pack</p>
           <div class="pricing__img">
@@ -171,7 +171,7 @@
         </div>
         <div class="pricing__item pricing_premium">
           <h3 class="pricing__title">
-            Pack <span class="pricing__amp">&amp;</span> Premium
+            Pack Premium
           </h3>
           <p class="pricing__sentence">Description du pack</p>
           <div class="pricing__img">
@@ -186,8 +186,7 @@
         </div>
         <div class="pricing__item pricing_gold">
           <h3 class="pricing__title">
-            Pack <span class="pricing__amp">&amp;</span>
-            <span class="gold">Gold</span>
+            Pack <br> Gold</span>
           </h3>
           <p class="pricing__sentence">Description du pack</p>
           <div class="pricing__img">
@@ -214,21 +213,27 @@
         <div class="col-full">
           <h3 class="subhead gold">Pack 4</h3>
           <h1 class="display-2 display-2--light">
-            Contactez-nous
+            Description du service
           </h1>
+          <ul>
+            <li class="pricing__feature">Service 1</li>
+            <li class="pricing__feature">Service 1</li>
+            <li class="pricing__feature">Service 1</li>
+
+          </ul>
         </div>
       </div>
 
       <div class="row contact-content" data-aos="fade-up">
         <div class="contact-primary">
-          <h3 class="h6">Send Us A Message</h3>
+          <h3 class="h6">Envoyez-nous un message</h3>
 
           <form
             name="contactForm"
             id="contactForm"
             method="post"
             action=""
-            novalidate="novalidate"
+            .0novalidate="novalidate"
           >
             <fieldset>
               <div class="form-field">
@@ -236,7 +241,20 @@
                   name="contactName"
                   type="text"
                   id="contactName"
-                  placeholder="Your Name"
+                  placeholder="Votre nom"
+                  value=""
+                  minlength="2"
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="contactName"
+                  type="text"
+                  id="contactName"
+                  placeholder="Nom du gerant"
                   value=""
                   minlength="2"
                   required=""
@@ -249,7 +267,7 @@
                   name="contactEmail"
                   type="email"
                   id="contactEmail"
-                  placeholder="Your Email"
+                  placeholder="Votre email"
                   value=""
                   required=""
                   aria-required="true"
@@ -261,7 +279,7 @@
                   name="contactSubject"
                   type="text"
                   id="contactSubject"
-                  placeholder="Subject"
+                  placeholder="Sujet"
                   value=""
                   class="full-width"
                 />
@@ -270,7 +288,7 @@
                 <textarea
                   name="contactMessage"
                   id="contactMessage"
-                  placeholder="Your Message"
+                  placeholder="Votre message"
                   rows="10"
                   cols="50"
                   required=""
@@ -279,9 +297,9 @@
                 ></textarea>
               </div>
               <div class="form-field">
-                <button class="full-width btn--primary">Submit</button>
+                <button class="full-width btn--primary">Envoyer</button>
                 <div class="submit-loader">
-                  <div class="text-loader">Sending...</div>
+                  <div class="text-loader">Envoie...</div>
                   <div class="s-loader">
                     <div class="bounce1"></div>
                     <div class="bounce2"></div>
@@ -306,16 +324,16 @@
 
         <div class="contact-secondary">
           <div class="contact-info">
-            <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+            <h3 class="h6 hide-on-fullwidth">Contact</h3>
 
             <div class="cinfo">
-              <h5>Email Us At</h5>
+              <h5>Envoyez-nous un email sur:</h5>
               <p>contact@palacemedia.ma<br /></p>
             </div>
 
             <div class="cinfo">
-              <h5>Call Us At</h5>
-              <p>Phone: +212633819611<br /></p>
+              <h5>Appelez-nous:</h5>
+              <p>Tel: +212633819611<br /></p>
             </div>
 
             <ul class="contact-social">
