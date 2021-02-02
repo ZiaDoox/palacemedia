@@ -658,8 +658,54 @@ form,
 	margin: 1em;
 	padding: 0 0 2em;
 	color: #fff;
-	background: #102341;
+	/* background: #102341; */
 }
+
+.pricing--yama .pricing_premium {
+    background: #e65153;
+}
+
+.pricing--yama .pricing_standard {
+    background: #102341;
+}
+
+.pricing--yama .pricing_standard  .pricing__feature {
+    color:rgba(255, 255, 255, 0.8);
+}
+.pricing--yama .pricing__feature {
+    color: #000;
+    font-weight: bold;
+}
+
+
+.pricing--yama .pricing_gold {
+    background: #ffd700;
+}
+
+.pricing--yama .pricing_gold .pricing__title {
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.pricing--yama .pricing_gold .pricing__amp {
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.pricing--yama .pricing_gold  .pricing__sentence {
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.pricing--yama .pricing_premium  .pricing__sentence {
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.pricing--yama .pricing_premium .pricing__title {
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.pricing--yama .pricing_premium .pricing__amp {
+    color:rgba(0, 0, 0, 0.8);
+}
+
 
 .pricing--yama .pricing__title {
 	font-family: 'Playfair Display', serif;
@@ -690,10 +736,6 @@ form,
 
 }
 
-.pricing--yama .gold {
-    color: goldenrod;
-}
-
 .pricing--yama .pricing__price {
 	font-size: 2em;
 	font-weight: bold;
@@ -702,8 +744,6 @@ form,
 	overflow: hidden;
 	padding: 0.75em;
 	cursor: default;
-	color: #ef7d46;
-	background: #1a181b;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
@@ -752,8 +792,9 @@ form,
 .pricing--yama .pricing__action {
 	font-weight: bold;
 	margin: 0 2em;
-	border-radius: 4px;
-	background: #ef7d46;
+    border-radius: 4px;
+    background: #fff;
+    color:rgba(0, 0, 0, 0.8);
 	-webkit-transition: background-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, color 0.3s;
 }
