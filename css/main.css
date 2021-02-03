@@ -669,6 +669,13 @@ form,
     background: linear-gradient(180deg, rgba(162,1,3,1) 0%, rgba(230,81,83,1) 36%, rgba(255,114,115,1) 100%);
 }
 
+.pricing--yama .pricing_premium li {
+    color: black;
+}
+
+.pricing--yama .pricing_gold li {
+    color: black;
+}
 .pricing--yama .pricing_standard {
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(16,35,64,1) 36%, rgba(18,107,125,1) 100%);
