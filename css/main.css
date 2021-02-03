@@ -1,7 +1,6 @@
 /* =================================================================== 
  *
- *  Glint v1.0 Main Stylesheet
- *  11-20-2017
+ *  Palacemedia v1.0 Main Stylesheet
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -340,6 +339,7 @@ ul {
 
 li {
     display: list-item;
+    font-family: 'montserrat', 'Courier New', Courier, monospace;
 }
 
 ol, ul {
@@ -641,6 +641,7 @@ form,
 .pricing__feature-list {
     text-align: left;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .pricing__action {
@@ -794,12 +795,12 @@ form,
 	color: #2a272c;
 }
 
-.pricing--yama .pricing__feature-list {
+.pricing__feature-list {
 	margin: 0;
 	padding: 2em 1em;
 	list-style: none;
 	text-align: center;
-	color: #6a6563;
+	color: #fff;
 }
 
 .pricing--yama .pricing__action {
