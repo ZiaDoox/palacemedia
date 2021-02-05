@@ -1,9 +1,0 @@
-[submodule "web-rest"]
-	path = web-rest
-	url = https://github.com/haohle97/Menu.git
-[submodule "showcase-website-rest"]
-	path = showcase-website-rest
-	url = https://github.com/JeanFabry/Showcase-website-fictional-restaurant.git
-[submodule "pack3"]
-	path = pack3
-	url = https://github.com/miami78/Menu-Restaurant.git
