@@ -262,3 +262,17 @@ Menu
     height: 150px;
   }
 }
+
+footer {
+  background-color: #333;
+  color: #FFF;
+}
+
+footer img {
+  height: 36px;
+  width: 200px !important;
+  margin:1rem;
+}
+.link-list a {
+  color: rgb(202, 202, 202) !important;
+}
