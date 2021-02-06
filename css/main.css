@@ -656,6 +656,8 @@ form,
 
 
 /* Yama */
+
+
 .pricing--yama .pricing__item {
 	margin: 1em;
 	padding: 0 0 2em;
@@ -685,6 +687,24 @@ background: -moz-linear-gradient(180deg, hsla(0, 100%, 67%, 1) 0%, hsla(0, 100%,
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(16,35,64,1) 36%, rgba(18,107,125,1) 100%);
 }
 
+
+.ultimate .pricing__feature {
+    font-weight: bold;
+}
+.ultimate .pricing__feature .pricing__feature-list {
+    color: #000;
+}
+
+.ultimate h3 {
+    color: #008DD5 !important;
+}
+.ultimate button p {
+    color: #008DD5 !important;
+}
+.ultimate p {
+    color: rgb(140, 141, 143) !important;
+    font-weight: bold;
+}
 .pricing--yama .pricing__img {
     width: 100px;
     height: 100px;
