@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="footer.scss" />
   </head>
   <body>
     <section class="menu">
@@ -85,27 +84,42 @@
         <!-- end of single item -->
       </div>
     </section>
-    <footer class="pt-4 border-top">
-      <div class="row">
-        <div class="col-md-6">
-          <img   src="../images/logo-edited.png">
-          <small class="d-block m-3 text-muted">Palace media</small>
+    <footer>
+      <div class="row footer-main">
+        <div class="col-six tab-full left footer-desc">
+          <div class="footer-logo"></div>
         </div>
-        <div class="col-md-3">
-          <h3>Horaires du travail</h3>
-          <ul class="list-unstyled text-small link-list">
-            <li><a class="text-muted" href="#">Lundi a vendredi: du 00 a 00</a></li>
-            <li><a class="text-muted" href="#">Weekend: du 00 a 00</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h3>Contact</h3>
-          <ul class="list-unstyled text-small link-list">
-            <li><a class="text-muted" href="#">contact@palacemedia.ma</a></li>
-            <li><a class="text-muted" href="#">0679585216</a></li>
-          </ul>
+
+        <div class="col-six tab-full right footer-subscribe">
+          <h4>Contact</h4>
+          <p>
+            Email: contact@palacemedia.ma
+          </p>
+          <p>Telephone 1: +212688888888</p>
+          <p>Telephone 2: +212688888888</p>
+
+          
+          <div class="subscribe-form">
+            <p>Address: Avenue: ...</p>
+          </div>
         </div>
       </div>
+      <!-- end footer-main -->
+
+      <div class="row footer-bottom">
+        <div class="col-twelve">
+          <div class="copyright">
+            <span>© Copyright Palace Media 2020</span>
+          </div>
+
+          <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"
+              ><i class="icon-arrow-up" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- end footer-bottom -->
     </footer>
     <!-- javascript -->
     <script src="app.js"></script>

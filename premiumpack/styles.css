@@ -5,6 +5,198 @@ Fonts
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
+
+/* Footer Styles  */
+
+footer {
+  padding: 9rem 0 6rem;
+  font-family: "montserrat-light", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: black;
+}
+
+footer h4 {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  line-height: 1.313;
+  margin-top: 0;
+  margin-bottom: 3.6rem;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+  color: #008DD5;
+}
+
+footer .row {
+  max-width: 980px;
+}
+
+.footer-subscribe .subscribe-form {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.footer-subscribe #mc-form {
+  width: 100%;
+}
+
+
+
+.footer-subscribe #mc-form label {
+  color: #FFFFFF;
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 1.3rem;
+  padding: 0 2rem;
+}
+
+.footer-subscribe #mc-form label i {
+  padding-right: 6px;
+}
+
+
+
+/* --------------------------------------------------------------- 
+* ## footer main
+* --------------------------------------------------------------- */
+.footer-main {
+  text-align: left;
+}
+
+.footer-main .left {
+  padding-right: 40px;
+}
+
+.footer-main .right {
+  padding-left: 40px;
+}
+
+.footer-logo {
+  display: block;
+  margin: -.6rem 0 3.6rem 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  width: 300px;
+  height: 100px;
+  background: url("../images/footer-edited2.png") no-repeat center;
+  background-size: 300px 100px;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ---------------------------------------------------------------
+ * ## footer bottom
+ * --------------------------------------------------------------- */
+ .footer-bottom {
+  margin-top: 5.4rem;
+  text-align: center !important;
+  font-size: 14px;
+}
+
+.footer-bottom .copyright span {
+  display: inline-block;
+}
+
+.footer-bottom .copyright span::after {
+  content: "|";
+  display: inline-block;
+  padding: 0 1rem 0 1.2rem;
+  color: rgba(255, 255, 255, 0.05);
+}
+
+.footer-bottom .copyright span:last-child::after {
+  display: none;
+}
+
+/* Responsive Footer */
+@media only screen and (max-width: 900px) {
+  .footer-main .left {
+      padding-right: 20px;
+  }
+  .footer-main .right {
+      padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  footer .row {
+      max-width: 600px;
+  }
+  .footer-main .left {
+      padding-right: 15px;
+      margin-bottom: 4.2rem;
+  }
+  .footer-main .right {
+      padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-main .left {
+      padding-right: 10px;
+  }
+  .footer-main .right {
+      padding-left: 10px;
+  }
+  .footer-logo {
+      margin: -.6rem auto 3.6rem;
+  }
+  .footer-bottom {
+      padding-bottom: .6rem;
+  }
+  .footer-bottom .copyright span {
+      display: block;
+  }
+  .footer-bottom .copyright span::after {
+      display: none;
+  }
+  .go-top {
+      right: 0;
+      bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-subscribe #mc-form input[type="email"] {
+      padding: 1.2rem 20px 1.2rem;
+      background: rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
+  .footer-subscribe #mc-form input[type=submit] {
+      position: static;
+      width: 100%;
+      margin-bottom: 1.8rem;
+  }
+  .footer-subscribe #mc-form label {
+      text-align: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer-main .left {
+      padding-right: 0;
+  }
+  .footer-main .right {
+      padding-left: 0;
+  }
+}
+
+
+
+
+
+
 /*
 =============== 
 Variables
@@ -263,16 +455,6 @@ Menu
   }
 }
 
-footer {
-  background-color: #333;
-  color: #FFF;
-}
-
-footer img {
-  height: 36px;
-  width: 200px !important;
-  margin:1rem;
-}
 .link-list a {
   color: rgb(202, 202, 202) !important;
 }
