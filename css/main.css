@@ -418,7 +418,7 @@ img.pull-left {
 
 .site-logo img {
     max-width: 187px !important;
-    max-height: 30px !important;
+    max-height: 100px !important;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1547,6 +1547,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
     .site-logo {
         width: 55px !important;
+        height: 70px !important;
     }
 }
 
@@ -1562,6 +1563,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
     .site-logo {
         width: 45px !important;
+        height: 60px !important;
     }
 }
 
