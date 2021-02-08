@@ -841,11 +841,16 @@ background: -moz-linear-gradient(180deg, hsla(51, 100%, 41%, 1) 0%, hsla(51, 100
 }
 
 .pricing__feature-list {
+    text-transform: none;
+    font-size: 15px !important;
 	margin: 0;
 	padding: 2em 1em;
 	list-style: none;
-	text-align: center;
 	color: #fff;
+}
+
+.pricing_gold .pricing__feature-list {
+    font-size: 15px !important;
 }
 
 .pricing--yama .pricing__action {
@@ -2090,6 +2095,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__main {
     padding-top: 24rem;
     position: relative;
+}
+
+.home-content__main-p {
+    color: #fff;
+}
+
+.home-content__main-p span {
+    color: #0087cc;
+    font-weight: bolder;
 }
 
 .home-content__buttons {
