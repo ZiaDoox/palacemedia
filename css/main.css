@@ -3379,11 +3379,15 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-primary {
-    width: 65%;
+    width: 100%;
 }
 
 .contact-primary #contactForm {
     margin-top: -1.5rem;
+}
+
+.contact-primary h3 {
+    text-align: center;
 }
 
 .contact-secondary {
