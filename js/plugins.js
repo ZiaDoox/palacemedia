@@ -11,6 +11,7 @@
 
 $('#form_id').ajaxchimp(options);
 
+
 options = {
     language: 'en',
     callback: callbackFunction,
