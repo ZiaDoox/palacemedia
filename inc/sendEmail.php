@@ -10,12 +10,12 @@ if($_POST) {
     $email = trim(stripslashes($_POST['contactEmail']));
     $subject = trim(stripslashes($_POST['contactSubject']));
     $contact_message = trim(stripslashes($_POST['contactMessage']));
-    $phone = trim(stripslashes($_POST['contactPhone']));
+    //$phone = trim(stripslashes($_POST['contactPhone']));
 
     // Check phone 
-    if(strlen($phone) < 10) {
-        $error['phone'] = "Numero de telephone n'est pas valide";
-    }
+    //if(strlen($phone) < 10) {
+    //    $error['phone'] = "Numero de telephone n'est pas valide";
+    //}
 
     // Check Name
     if (strlen($name) < 2) {
@@ -36,7 +36,7 @@ if($_POST) {
     // Set Message
     $message .= "Email from: " . $name . "<br />";
     $message .= "Email address: " . $email . "<br />";
-    $message .= "Phone: " . $phone . "<br />";
+    //$message .= "Phone: " . $phone . "<br />";
     $message .= "Message: <br />";
     $message .= $contact_message;
     $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
@@ -66,7 +66,7 @@ if($_POST) {
         $response = (isset($error['name'])) ? $error['name'] . "<br /> \n" : null;
         $response .= (isset($error['email'])) ? $error['email'] . "<br /> \n" : null;
         $response .= (isset($error['message'])) ? $error['message'] . "<br />" : null;
-        $response .= (isset($error['phone'])) ? $error['phone'] . "<br />" : null;
+        //$response .= (isset($error['phone'])) ? $error['phone'] . "<br />" : null;
         
         echo $response;
 
