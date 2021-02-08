@@ -1,5 +1,5 @@
 /* ===================================================================
- * Glint - Main JS
+ * Palace Media - Main JS
  *
  * ------------------------------------------------------------------- */
 
@@ -9,7 +9,7 @@
     
     var cfg = {
         scrollDuration : 800, // smoothscroll duration
-        mailChimpURL   : 'https://gmail.us7.list-manage.com/subscribe/post?u=c57065b4d2ed701db822ebde0&amp;id=1e8cab8a09'   // mailchimp url
+        mailChimpURL   : 'https://gmail.us7.list-manage.com/subscribe/post?u=c57065b4d2ed701db822ebde0&amp;id=1e8cab8a09&'   // mailchimp url
     },
 
     $WIN = $(window);
