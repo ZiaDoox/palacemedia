@@ -3673,19 +3673,22 @@ footer .row {
 
 .footer-logo {
     display: block;
-    margin: -.6rem 0 3.6rem 0;
+    margin: 1.6rem 0 3.6rem 0;
     padding: 0;
     outline: 0;
     border: none;
-    width: 300px;
-    height: 100px;
-    background: url("../images/footer-edited2.png") no-repeat center;
+    /*background: url("../images/footer-edited2.png") no-repeat center;*/
     background-size: 300px 100px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+}
+.footer-logo img {
+
+    max-width: 300px !important;
+    max-height: 150px !important;
 }
 
 .footer-subscribe .subscribe-form {
