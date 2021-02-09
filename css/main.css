@@ -707,6 +707,7 @@ background: -moz-linear-gradient(180deg, hsla(0, 100%, 67%, 1) 0%, hsla(0, 100%,
     margin-left: 1.5rem !important;
     margin-right: 1.5rem !important;
     margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
     padding: 1.5rem !important;
     border-radius: 10px;
     font-size: 27px !important;
@@ -777,9 +778,11 @@ background: -moz-linear-gradient(180deg, hsla(51, 100%, 41%, 1) 0%, hsla(51, 100
 	font-size: 2.35em;
     font-weight: 900;
     color: #fff;
+    margin-bottom: 1rem;
 	line-height: 1;
 	width: 290px;
-	margin: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 1rem !important;
 	padding: 1em 1em 0em;
 }
 
