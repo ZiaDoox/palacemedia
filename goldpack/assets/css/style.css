@@ -286,7 +286,7 @@ i.arrow1 {
 .food h4{
 	font-size:1.3em;
 	font-weight:400;
-	color:#092242;
+	color:#800020;
 	text-align:center;
 	font-family: 'aleolight';
 }
@@ -405,7 +405,7 @@ ul.wmuSliderPagination {
 	background:#fff51f;
 }
 .wmuSliderPagination a.wmuActive {
-	background:#092242;
+	background:#800020;
 }
 
 .wmuGallery .wmuGalleryImage {
@@ -442,7 +442,7 @@ ul.wmuSliderPagination {
 }
 .ourhappy h4 {
 	font-size: 1.7em;
-	color: #092242;
+	color: #800020;
 	font-family: 'aleobold';
 	padding: 0.3em 0;
 	margin: 0;
@@ -464,7 +464,7 @@ ul.wmuSliderPagination {
 }
 .about h4 {
 	font-size: 1.7em;
-	color: #092242;
+	color: #800020;
 	font-family: 'aleobold';
 	padding: 0.3em 0;
 	margin: 0;
@@ -507,7 +507,7 @@ ul.wmuSliderPagination {
 	opacity: 0.5;
 }
 .r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
-	color: #092242;
+	color: #800020;
 	background-color: #fff;
 	border-bottom: none;
 }
@@ -527,7 +527,7 @@ ul.wmuSliderPagination {
 
 .r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
 	background-color: #fff;
-	color: #092242;
+	color: #800020;
 
 	margin-bottom: 0;
 }
@@ -581,7 +581,7 @@ ul.wmuSliderPagination {
 	margin:0.5em 0;
 }
 .product-complete-info span{
-	color:#092242;
+	color:#800020;
 	font-weight:600;
 	font-size:1em;
 }
@@ -625,7 +625,7 @@ ul.wmuSliderPagination {
 	-msborder-radius: 5px;
 }
 .subscribe form input[type="submit"] {
-	background: #092242;
+	background: #800020;
 	color: #fff;
 	padding: 0.5em 3em;
 	font-size: 20px;
@@ -685,8 +685,13 @@ i.twt:hover {
 }
 
 .bg-dark {
-	background: #092242 !important;
+	background: #800020 !important;
 	color: #fff;
+}
+
+
+.phone img {
+	color: white;
 }
 
 .text-h3 {
@@ -1010,6 +1015,7 @@ margin: 0em 0em 2em;
 }
 .logo img {
 	width: 26%;
+	height: 26%;
 }
 .landing-info h1 {
 	font-size: 1.8em;
@@ -1306,10 +1312,10 @@ i.arrow-rt1 {
 	border: 6px solid #fff;
 }
 .fast-left img:hover {
-	border: 6px solid rgb(253, 114, 54);
+	border: 6px solid #800020;
 }
 .fast-left1 img:hover {
-	border: 6px solid rgb(253, 114, 54);
+	border: 6px solid #800020;
 }
 .r-tabs .r-tabs-nav .r-tabs-anchor {
 	padding: 0.5em 0.5em;

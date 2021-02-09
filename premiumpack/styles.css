@@ -17,13 +17,13 @@ Fonts
 /* Footer Styles  */
 
 footer {
-  padding: 9rem 0 2rem;
-  font-family: "montserrat-light", sans-serif;
-  font-size: 15px;
-  line-height: 2;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-  background-color: black;
+  padding: 2rem 0 1rem;
+    font-family: "montserrat-light", sans-serif;
+    font-size: 13px;
+    line-height: 1;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: black;
 }
 
 footer h4 {
@@ -57,17 +57,6 @@ footer .row {
 }
 
 
-
-.footer-subscribe #mc-form label {
-  color: #FFFFFF;
-  font-family: "montserrat-regular", sans-serif;
-  font-size: 1.3rem;
-  padding: 0 2rem;
-}
-
-.footer-subscribe #mc-form label i {
-  padding-right: 6px;
-}
 
 
 
@@ -177,6 +166,9 @@ footer .row {
       right: 0;
       bottom: 0;
   }
+}
+.footer-subscribe {
+  text-align: right;
 }
 
 @media only screen and (max-width: 500px) {
