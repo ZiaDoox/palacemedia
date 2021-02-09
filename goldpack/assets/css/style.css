@@ -326,7 +326,7 @@ i.arrow1 {
 
 .nbs-flexisel-item > img {
 	cursor: pointer;
-	positon: relative;
+	position: relative;
 	margin-top:10px;
 	margin-bottom: 10px;
 	max-width:250px;
