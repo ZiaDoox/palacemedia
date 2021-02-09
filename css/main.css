@@ -668,11 +668,7 @@ form,
 }
 
 .pricing--yama .pricing_premium {
-    background: hsla(0, 100%, 67%, 1);
-
-background: linear-gradient(180deg, hsla(0, 100%, 67%, 1) 0%, hsla(0, 100%, 80%, 1) 100%);
-
-background: -moz-linear-gradient(180deg, hsla(0, 100%, 67%, 1) 0%, hsla(0, 100%, 80%, 1) 100%);
+    background: #8494A4;
 }
 
 .pricing--yama .pricing_premium li {
@@ -680,12 +676,16 @@ background: -moz-linear-gradient(180deg, hsla(0, 100%, 67%, 1) 0%, hsla(0, 100%,
 }
 
 .pricing--yama .pricing_gold li {
-    color: black;
+    color: #fff;
 }
 .pricing--yama .pricing_standard {
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(16,35,64,1) 36%, rgba(18,107,125,1) 100%);
+    background: #C3CCD3;
 }
+
+.pricing--yama .pricing_standard .pricing__title {
+    color: #000;
+}
+
 .ultimate {
     box-shadow: 0px 0px 7px #008ed5b4 !important;
 }
@@ -732,20 +732,15 @@ background: -moz-linear-gradient(180deg, hsla(0, 100%, 67%, 1) 0%, hsla(0, 100%,
 }
 
 .pricing--yama .pricing_standard  .pricing__feature {
-    color:rgba(255, 255, 255, 0.8);
+    color:rgba(24, 23, 23, 0.8);
 }
 .pricing--yama .pricing__feature {
     color: #fff;
     font-weight: bold;
 }
 
-
 .pricing--yama .pricing_gold {
-    background: hsla(51, 100%, 41%, 1);
-
-background: linear-gradient(180deg, hsla(51, 100%, 41%, 1) 0%, hsla(51, 100%, 50%, 1) 30%, hsla(51, 100%, 77%, 1) 100%);
-
-background: -moz-linear-gradient(180deg, hsla(51, 100%, 41%, 1) 0%, hsla(51, 100%, 50%, 1) 30%, hsla(51, 100%, 77%, 1) 100%);
+    background: #0C2444;
 }
 
 .pricing--yama .pricing_gold .pricing__title {
@@ -757,7 +752,7 @@ background: -moz-linear-gradient(180deg, hsla(51, 100%, 41%, 1) 0%, hsla(51, 100
 }
 
 .pricing--yama .pricing_gold  .pricing__sentence {
-    color:rgba(0, 0, 0, 0.8);
+    color:rgba(204, 204, 204, 0.8);
 }
 
 .pricing--yama .pricing_premium  .pricing__sentence {
@@ -765,7 +760,7 @@ background: -moz-linear-gradient(180deg, hsla(51, 100%, 41%, 1) 0%, hsla(51, 100
 }
 
 .pricing--yama .pricing_premium .pricing__title {
-    color:#fff;
+    color:#000;
 }
 
 .pricing--yama .pricing_premium .pricing__amp {
