@@ -130,6 +130,11 @@ span{
 	text-align:center;
 }
 .happy-1 {
+	background: url(../img/landing.png) no-repeat;
+	display: block;
+	background-size: cover;
+	min-height: 237px;
+	text-align:center;
 	padding:0;
 }
 .happy-hour h4 {
@@ -167,16 +172,27 @@ span{
 	margin: 0;
 	letter-spacing: 2px;
 }
+.happy-1 h4:hover {
+	cursor: pointer;
+	color: black;
+}
+
+#services h2 {
+	font-family: 'aleobold';
+	text-align: center;
+	margin: 1rem 0 5rem 0;
+	font-size: 30px;
+}
 .happy-2 h4:hover{
-	background: white;
+	cursor: pointer;
 	color:black;
 }
 .happy-3 h4:hover{
-	background: white;
+	cursor: pointer;	
 	color: black;
 }
 .happy-4 h4:hover{
-	background: white;
+	cursor: pointer;
 	color: black;
 }
 
