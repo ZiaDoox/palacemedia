@@ -1128,6 +1128,11 @@ margin: 0em 0em 2em;
 	padding: auto 2rem !important;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
 .nav-item .nav-link:hover {
 	color:rgb(243, 85, 53) !important;
 }
