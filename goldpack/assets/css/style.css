@@ -1112,6 +1112,38 @@ margin: 0em 0em 2em;
 	left: -1.5em;
 }
 }
+
+
+
+
+/* NAV BAR CUSTOM */
+
+.navbar {
+	background: transparent !important;
+	font-size: 20px !important;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar .nav-item {
+	padding: auto 2rem !important;
+}
+
+.nav-item .nav-link:hover {
+	color:rgb(243, 85, 53) !important;
+}
+
+.nav-item .nav-link.active {
+	color:rgb(243, 85, 53) !important;
+}
+.dropdown-item {
+	font-size: 20px !important;
+	color: #000 !important;
+}
+
+.dropdown-item:hover {
+	background-color: #afb0b1;
+}
+
 /*--responsive design--*/
 @media (max-width:480px){
 .menu_box_list ul {

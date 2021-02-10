@@ -29,35 +29,32 @@
 </head>
 <body>
 	<div class="landing">
-		<div class="container">
-			<div class="header">
-				<div class="menu">
-						<a href="#" class="right_bt" onclick="openNav()" id="activator"><img src="assets/img/menu.png" alt=""/></a>
-							<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-      <a href="./index.html">Acceuil</a>
-    <a href="#">Menu</a>
-	<a href="#services">Plats Speciaux</a>
-	<a href="#contact">Contact</a>
-
-  </div>
-</div>
-							<script type="text/javascript" src="assets/js/easing.js"></script>
-								 <script>
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-}
-
-function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-}
-</script>
-
-				</div>
-
-						<div class="clearfix"></div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			  <ul class="navbar-nav mx-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Plats Speciaux</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Menu</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Plats Speciaux
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="#">Fast Food</a>
+					<a class="dropdown-item" href="#">Burgers</a>
+					<a class="dropdown-item" href="#">Tacos</a>
+				  </div>
+				</li>
+			  </ul>
 			</div>
+		  </nav>
+		<div class="container">
 			<div class="logo">
 				<a href="#"><img src="../images/logo-edited.png" alt=""></a>
 			</div>
