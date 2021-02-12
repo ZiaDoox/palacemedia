@@ -10,7 +10,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #F15A29;
+    background-color: #800020;
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -27,7 +27,7 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: black;
+    color: #fff;
     display: block;
     transition: 0.3s;
 }

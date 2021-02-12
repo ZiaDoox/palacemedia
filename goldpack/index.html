@@ -10,8 +10,14 @@
  <!-- SITE TITLE -->
 <title>Menu Restaurant</title>
 
+<!-- LIGHTBOX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
+
 <!-- BOOTSTRAP-->
 <link rel="stylesheet" href="assets/css/bootstrap.css"  type="text/css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css" />
 
 <!--STYLESHEETS -->
 <link rel="stylesheet" href="assets/css/style.css"  type="text/css" />
@@ -21,77 +27,76 @@
  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'  type='text/css'>
 
 <script src="assets/js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </head>
 <body>
 	<div class="landing">
-		<div class="container">
-			<div class="header">
-				<div class="menu">
-						<a href="#" class="right_bt" onclick="openNav()" id="activator"><img src="assets/img/menu.png" alt=""/></a>
-							<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-      <a href="#">Contacts</a>
-    <a href="#">Events</a>
-    <a href="#">Menu</a>
-  </div>
-</div>
-							<script type="text/javascript" src="assets/js/easing.js"></script>
-								 <script>
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-}
-
-function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-}
-</script>
-
-				</div>
-
-						<div class="clearfix"></div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			  <ul class="navbar-nav mx-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="./index.html">Acceuil <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Menu</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Plats Speciaux
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="#">Fast Food</a>
+					<a class="dropdown-item" href="#">Burgers</a>
+					<a class="dropdown-item" href="#">Tacos</a>
+				  </div>
+				</li>
+			  </ul>
 			</div>
+		  </nav>
+		<div class="container">
 			<div class="logo">
-				<a href="#"><img src="assets/img/logoBig.png" alt=""></a>
+				<a href="#"><img src="../images/logo-edited.png" alt=""></a>
 			</div>
 			<div class="landing-info">
-				<h1>We Provide The Best Food At The<span> Right Price.</span></h1>
+				<h1>NOUS FOURNISSONS LA MEILLEURE NOURRITURE
+					<span> Au bon prix.</span></h1>
 			</div>
 		</div>
 	</div>
 <div class="happy-hour" id="home">
-	<div class="col-md-3 happy-1">
-		<h5>Happy Hour</h5>
-		<h6>Part Time</h6>
+	<div class="col-md-3 happy-2">
+		<h4>Desserts</h4>
 	</div>
 	<div class="col-md-3 happy-2">
-		<h4>Breakfast</h4>
+		<h4>Petit Dejeuner</h4>
 	</div>
 	<div class="col-md-3 happy-3">
-		<h4>Lunch</h4>
+		<h4>Dejeuner</h4>
 	</div>
 	<div class="col-md-3 happy-4">
-		<h4>Dinner</h4>
+		<h4>Diner</h4>
 	</div>
 		<div class="clearfix"></div>
 </div>
 <div class="fast food" id="services">
+	<h2>Nos Plats Speciaux</h2>
+
 	<div class="container">
+
 		<div class="col-md-6 fast-left">
 			<img src="assets/img/fastfood.jpg" class="img-responsive" alt="">
 		</div>
 		<div class="col-md-6 fast-right">
 			<h3>Fast Food</h3>
-			<h5>You'll love our delicious fastfood</h5>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
 			<a class="view" href="#">VIEW GALLERY<i class="arrow1"></i></a>
 		</div>
 				<div class="clearfix"></div>
 			<div class="fast-foo">
 				<div class="col-md-6 fast-right1">
-					<h3>Drinks</h3>
-					<h5>We also produce delicious drinks</h5>
+					<h3>Desserts</h3>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
 					<a class="view" href="#">VIEW GALLERY<i class="arrow1"></i></a>
 				</div>
@@ -100,6 +105,16 @@ function closeNav() {
 				</div>
 					<div class="clearfix"></div>
 			</div>
+			<div class="col-md-6 fast-left">
+				<img src="assets/img/tajine.jpg" class="img-responsive" alt="">
+			</div>
+			<div class="fast-foo">
+			<div class="col-md-6 fast-right mt-4">
+				<h3>Tajines</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
+				<a class="view" href="#">VIEW GALLERY<i class="arrow1"></i></a>
+			</div>
+		</div>
 	</div>
 </div>
 <div class="foods" id="types of food">
@@ -108,13 +123,12 @@ function closeNav() {
 			<div class="product-tabs">
 				    <div id="horizontalTab">
 				        <ul>
-				            <li><a href="#tab-1">Fast Food</a></li>
-				            <li><a href="#tab-2">Drinks</a></li>
-				            <li><a href="#tab-3">Chicken</a></li>
-							 <li><a href="#tab-4">Rice</a></li>
+							<li><a href="#tab-1">Petit Dejeuner</a></li>
+				            <li><a href="#tab-2">Desserts</a></li>
+				            <li><a href="#tab-3">Tajines</a></li>
+							 <li><a href="#tab-4">Paninis</a></li>
 				        </ul>
 						<div id="tab-1" class="product-complete-info">
-
 							  <ul id="flexiselDemo3">
 								<li>
 									<div class="food">
@@ -178,7 +192,8 @@ function closeNav() {
 							</script>
 							<script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
 
-				        </div>
+						</div>
+						
 					<div id="tab-2" class="product-complete-info">
 				        	<img src="assets/img/lunch.jpg" class="img-responsive" alt="">
 							<img src="assets/img/dinner.jpg" class="img-responsive" alt="">
@@ -231,70 +246,74 @@ function closeNav() {
 				</div>
 				</div>
 				</div>
-				</div>
-<div class="customers" id="about">
+</div>
+<!--
+<div class="customer1s">
 	<div class="container">
-		<div class="customer-1">
-			<div class="col-md-8 ourhappy">
-				<div class="wmuSlider example1 section" id="section-1">
+			<div class="col-md ourhappy">
 				 <article style="position: absolute; width: 100%; opacity: 0; height: 240px;">
-			   	   	 <h4>Our Happy Customers</h4>
-					 <h6>George Richard</h6>
-					 <p>Great food menu is awesome,there foods are not only great but also in the right price.I'll highly recommend them :)</p>
-					<ul>
-						<li><img src="assets/img/p1.png" class="img-responsive" alt="" /></li>
-						<li><img src="assets/img/p2.png" class="img-responsive" alt="" /></li>
-            <li><img src="assets/img/p3.png" class="img-responsive" alt="" /></li>
-					</ul>
+			   	   	 <h4>Nos Clients Satisfaits</h4>
+					 <div class="col-md-3 customer-img">
+						<img src="./assets/img/dinner.jpg" alt="">
+					 </div>
+					 <div class="col-md-3 customer-img">
+						<img src="./assets/img/dinner.jpg" alt="">
+					 </div>
+					 <div class="col-md-3 customer-img">
+						<img src="./assets/img/dinner.jpg" alt="">
+					 </div>
+					 <div class="col-md-3 customer-img">
+						<img src="./assets/img/dinner.jpg" alt="">
+					 </div>
 				</article>
-				<ul class="wmuSliderPagination">
-                	<li><a href="#" class="">0</a></li>
-                	<li><a href="#" class="">1</a></li>
-                	<li><a href="#" class="">2</a></li>
-                </ul>
-		  </div>
-		  </div>
-<!-- EMPLOYEES SLIDER -->
-          <script src="assets/js/jquery.wmuSlider.js"></script>
-			<script>
-       			$('.example1').wmuSlider();
-   		    </script>
-			<div class="col-md-4 about">
-				<h4>About Menu</h4>
-				<p>We are menu a little team of seven members.Ut wisi enim ad minim veniam,quis nos trudexer ci tation uliamcorper suscipit lob ortis nisl ut aliquipex ea commondo conse quatDuisau tem vel eum iriure dolom in</p>
+		  </div>          
+		</div>
+	</div>
+	-->
+		<div class="lightbox-gallery">
+			<div class="container">
+				<div class="intro">
+					<h2 class="text-center">Nos Clients Satisfait</h2>
+				</div>
+				<div class="row photos">
+					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/original/02_o_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190718/gallery/original/03_r_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190717/gallery/original/04_g_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/original/01_b_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/original/02_o_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/original/01_b_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+				</div>
 			</div>
-			<div class="clearfix"></div>
+		</div>
+	<section class="pt-0">
+		<h3 class="map-title" id="contact">Où nous trouver?</h3>
+		<div class="container-fluid p-0 pb-3">
+			<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.0679031598424!2d-6.837882885835021!3d34.016467927064014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76c7863654683%3A0x9dd409bdb7e6b2e0!2sGare%20Rabat%20Ville!5e0!3m2!1sfr!2sma!4v1612969302278!5m2!1sfr!2sma" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+		</div>
+		<div class="bg-dark mt-5 pt-5 pb-5 text-light">
+			<div class="container">
+				<div class="row-50"></div>
+				<div class="row justify-content-center text-center">
+					<div class="col-12 col-md mr-auto ml-auto">
+						<img alt="image" height="40" class="mb-2 rounded-circle" src="./assets/img/smartphone-call.png">
+						<h3 class="text-h3">+212 613949023</h3>
+					</div>
+	
+					<div class="col-12 col-md pt-4 pt-md-0 mr-auto ml-auto">
+						<img alt="image" height="40" class="rounded-circle mb-2" src="./assets/img/location-pin.png">
+						<h3 class="text-h3">Avenue Mohamed V
+							<br>Rabat, Agdal</h3>
+					</div>
+	
+					<div class="phone col-12 col-md pt-4 pt-md-0 mr-auto ml-auto">
+						<img alt="image" height="40" class="rounded-circle mb-2" src="./assets/img/mail.png">
+						<h3 class="text-h3">contact@palacemedia.ma</h3>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="subscribe" id="contact-us">
-		<div class="container">
-			<h3>Get our daily food items delivered to your email</h3>
-				<div class="col-md-7 text-field-email">
-						<form>
-							<input type="text" class="text" value="your e-mail" hint="Your email">
-						</form>
-					</div>
-					<div class="col-md-5 button1">
-						<form>
-							<input type="submit" value="subscribe">
-						</form>
-					</div>
-		</div>
-	</div>
-	<div class="footer">
-		<div class="container">
-			<img src="assets/img/logoBig.png" class="img-responsive" alt="" />
-			<h4>Thats What We Are</h4>
-				<ul>
-					<li><a href="#"><i class="fb"></i></a></li>
-					<li><a href="#"><i class="twt"></i></a></li>
-					<li><a href="#"><i class="pi"></i></a></li>
-						<div class="clearfix"></div>
-				</ul>
-				<p>2018 Menu Restaurant</p>
-		</div>
-	</div>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 
 </body>
 </html>
