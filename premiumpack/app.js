@@ -134,7 +134,7 @@ function displayMenuButtons() {
   );
   const categoryBtns = categories
     .map(function (category) {
-      return `<button type="button" class="filter-btn col-4" data-id=${category}>
+      return `<button type="button" class="filter-btn col-sm-3" data-id=${category}>
           ${category}
         </button>`;
     })

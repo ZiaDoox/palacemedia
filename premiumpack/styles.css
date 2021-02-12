@@ -4,7 +4,7 @@ Fonts
 ===============
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /* Logo */
 
@@ -168,6 +168,14 @@ footer .row {
 }
 .footer-subscribe {
   text-align: right;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-subscribe {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -240,7 +248,7 @@ Variables
   --clr-gold: #c59d5f;
   --clr-black: #222;
   --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
+  --ff-secondary: "Montserrat", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -306,7 +314,11 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-1);
+}
+
+.footer-main p {
+  color: var(--clr-white)
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -405,13 +417,20 @@ Menu
 
   font-size: 1rem;
   text-transform: capitalize;
-  margin: 2px 4.5rem;
+  margin: 2px .5rem;
   letter-spacing: 1px;
   border-radius: var(--radius);
   padding: 0.1rem 0.75rem;
   color: var(--clr-gold);
   cursor: pointer;
   transition: var(--transition);
+}
+
+@media (max-width: 750px) {
+  body {
+    margin: auto;
+  }
+  .filter-btn {margin: 2px 4.5rem;}
 }
 .filter-btn:hover {
   background: var(--clr-gold);
