@@ -1036,8 +1036,8 @@ margin: 0em 0em 2em;
 	padding: 1em 15em;
 }
 .logo img {
-	width: 26%;
-	height: 26%;
+	width: 35%;
+	height: 35%;
 }
 .landing-info h1 {
 	font-size: 1.8em;
@@ -1226,7 +1226,7 @@ margin: 0em 0em 2em;
 	width: 53%;
 }
 .landing {
-	min-height: 270px;
+	min-height: 370px;
 }
 .happy-1 h5 {
 	font-size: 1.2em;
