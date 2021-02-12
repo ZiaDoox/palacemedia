@@ -716,9 +716,11 @@ i.twt:hover {
 }
 
 .map-title {
-	text-align: center;
-	font-size: 30px;
-	margin: 3rem;
+	font-family: 'aleobold';
+    text-align: center;
+    margin: 1rem 0 5rem 0;
+    font-size: 30px;
+    color: rgb(243, 85, 53);
 }
 
 .customer-img img{
@@ -779,7 +781,10 @@ a.boxclose {
 }
 .landing-info h1 {
 	font-size: 2.7em;
+	margin-top: 5rem;
 	width: 48%;
+	text-transform: uppercase;
+	font-family: 'aleobold';
 }
 .landing {
 	min-height: 600px;
@@ -1172,10 +1177,11 @@ margin: 0em 0em 2em;
 }
 
 .lightbox-gallery h2 {
-	color: #800020;
-	font-size: 2rem;
-	font-family: 'Montserrat', cursive;
-	
+	font-family: 'aleobold';
+    text-align: center;
+    margin: 1rem 0 5rem 0;
+    font-size: 30px;
+    color: rgb(243, 85, 53);
 }
 
 .lightbox-gallery .photos {
