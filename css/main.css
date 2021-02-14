@@ -72,6 +72,11 @@ html {
     }
 }
 
+@media only screen and (max-width: 750px) {
+    .footer-main {
+        text-align: center  !important;
+    }
+}
 html, body {
     height: 100%;
 }
@@ -200,6 +205,9 @@ p.lead {
 @media only screen and (max-width: 800px) {
     p.lead {
         font-size: 1.8rem;
+    }
+    .footer-main p {
+        text-align: center;
     }
 }
 

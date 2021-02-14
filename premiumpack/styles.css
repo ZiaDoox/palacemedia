@@ -5,6 +5,8 @@ Fonts
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* Logo */
 
@@ -51,6 +53,12 @@ footer .row {
   position: relative;
 }
 
+.footer-subscribe {
+  font-family: 'Khula', sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
 .footer-subscribe #mc-form {
   width: 100%;
 }
@@ -92,6 +100,7 @@ footer .row {
 .footerlogo-title {
   text-align: center;
   color: rgb(231, 231, 231) !important;
+  font-family: 'B';
 }
 
 /* ---------------------------------------------------------------
