@@ -774,7 +774,7 @@ form,
 
 
 .pricing--yama .pricing__title {
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Bebas Neue', cursive !important;
 	font-size: 3em;
     font-weight: 900;
     color: #fff;
@@ -1508,6 +1508,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: 0;
 }
 
+.display-2 p {
+    font-family: 'Khula', sans-serif i !important;
+}
+
 .display-2--light {
     color: #FFFFFF;
 }
@@ -1517,8 +1521,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
-    font-family: "montserrat-bold", sans-serif;
-    font-size: 1.7rem;
+    font-family: 'Bebas Neue', cursive;    
+    font-size: 3.7rem;
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
@@ -2101,6 +2105,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__main-p {
     color: #fff;
+    font-family: 'Khula', sans-serif;
 }
 
 .home-content__main-p span {
