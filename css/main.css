@@ -58,6 +58,10 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
+
+ @import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html {
     font-size: 10px;
 }
@@ -736,6 +740,7 @@ form,
 }
 .pricing--yama .pricing__feature {
     color: #fff;
+    font-family: 'Khura', sans-serif;
     font-weight: bold;
 }
 
@@ -769,11 +774,10 @@ form,
 
 
 .pricing--yama .pricing__title {
-	font-family: 'Playfair Display', serif;
-	font-size: 2.35em;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 3em;
     font-weight: 900;
     color: #fff;
-    margin-bottom: 1rem;
 	line-height: 1;
 	width: 290px;
     margin: 0 auto;
@@ -3632,7 +3636,7 @@ footer {
     font-size: 15px;
     line-height: 2;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(236, 236, 236, 0.938);
 }
 
 footer h4 {
@@ -3653,6 +3657,13 @@ footer a:hover, footer a:focus, footer a:active {
 
 footer .row {
     max-width: 980px;
+}
+
+footer p {
+    font-family: 'Khula', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px !important;
+    text-align: right;
 }
 
 
@@ -3689,6 +3700,10 @@ footer .row {
 
     max-width: 300px !important;
     max-height: 150px !important;
+}
+
+.footer-subscribe {
+    margin-top: 15px;
 }
 
 .footer-subscribe .subscribe-form {
