@@ -72,7 +72,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
     .footer-main {
         text-align: center  !important;
     }
@@ -3310,7 +3310,7 @@ html.no-csstransitions .home-content__main {
     background-color: #121212;
     color: rgb(255, 255, 255);
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.5rem;
     line-height: 2;
@@ -3608,6 +3608,10 @@ html.no-csstransitions .home-content__main {
     .contact-content h3 {
         text-align: center;
     }
+    .contact-content {
+        padding-bottom: 3rem !important;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {
