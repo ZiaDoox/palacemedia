@@ -61,6 +61,8 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
 
 html {
     font-size: 10px;
@@ -1532,13 +1534,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
-<<<<<<< HEAD
-    font-family: "montserrat-bold", sans-serif;
-    font-size: 2.7rem;
-=======
     font-family: 'Bebas Neue', cursive;    
     font-size: 3.7rem;
->>>>>>> 512051525f8647345aff61e07b8c9f9f2e18aa4a
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
@@ -2145,7 +2142,13 @@ background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10
 
 .home-content__main-p {
     color: #fff;
-    font-family: 'Khula', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+@media (max-width: 750px) {
+    .home-content__main-p {
+        font-size: 1.5rem;
+    }
 }
 
 .home-content__main-p span {
