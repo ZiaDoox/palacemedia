@@ -1596,6 +1596,22 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     max-width: 960px;
 }
 
+.section-header .pack-surmesure h1 {
+    color: #fff !important;
+}
+.section-header p {
+    color: #fff;
+}
+
+.pack-surmesure {
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        padding: 5rem;
+    border-radius: 5px;
+}
+
 .section-header h1 {
     margin-top: 1rem !important;
     margin-bottom: 5rem !important;
