@@ -58,6 +58,10 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
+
+ @import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html {
     font-size: 10px;
 }
@@ -68,6 +72,11 @@ html {
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .footer-main {
+        text-align: center  !important;
+    }
+}
 html, body {
     height: 100%;
 }
@@ -196,6 +205,9 @@ p.lead {
 @media only screen and (max-width: 800px) {
     p.lead {
         font-size: 1.8rem;
+    }
+    .footer-main p {
+        text-align: center;
     }
 }
 
@@ -739,6 +751,7 @@ form,
 }
 .pricing--yama .pricing__feature {
     color: #fff;
+    font-family: 'Khura', sans-serif;
     font-weight: bold;
 }
 
@@ -772,11 +785,10 @@ form,
 
 
 .pricing--yama .pricing__title {
-	font-family: 'Playfair Display', serif;
-	font-size: 2.35em;
+	font-family: 'Bebas Neue', cursive !important;
+	font-size: 3em;
     font-weight: 900;
     color: #fff;
-    margin-bottom: 1rem;
 	line-height: 1;
 	width: 290px;
     margin: 0 auto;
@@ -1507,6 +1519,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: 0;
 }
 
+.display-2 p {
+    font-family: 'Khula', sans-serif i !important;
+}
+
 .display-2--light {
     color: #FFFFFF;
 }
@@ -1516,8 +1532,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
+<<<<<<< HEAD
     font-family: "montserrat-bold", sans-serif;
     font-size: 2.7rem;
+=======
+    font-family: 'Bebas Neue', cursive;    
+    font-size: 3.7rem;
+>>>>>>> 512051525f8647345aff61e07b8c9f9f2e18aa4a
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
@@ -2124,6 +2145,7 @@ background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10
 
 .home-content__main-p {
     color: #fff;
+    font-family: 'Khula', sans-serif;
 }
 
 .home-content__main-p span {
@@ -3320,7 +3342,7 @@ html.no-csstransitions .home-content__main {
     background-color: #121212;
     color: rgb(255, 255, 255);
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.5rem;
     line-height: 2;
@@ -3618,6 +3640,10 @@ html.no-csstransitions .home-content__main {
     .contact-content h3 {
         text-align: center;
     }
+    .contact-content {
+        padding-bottom: 3rem !important;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -3659,7 +3685,7 @@ footer {
     font-size: 15px;
     line-height: 2;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(236, 236, 236, 0.938);
 }
 
 footer h4 {
@@ -3680,6 +3706,13 @@ footer a:hover, footer a:focus, footer a:active {
 
 footer .row {
     max-width: 980px;
+}
+
+footer p {
+    font-family: 'Khula', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px !important;
+    text-align: right;
 }
 
 
@@ -3716,6 +3749,10 @@ footer .row {
 
     max-width: 300px !important;
     max-height: 150px !important;
+}
+
+.footer-subscribe {
+    margin-top: 15px;
 }
 
 .footer-subscribe .subscribe-form {

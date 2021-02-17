@@ -1,7 +1,5 @@
 ﻿<?php
-
-// Replace this with your own email address
-$siteOwnersEmail = 'ziadoox.sabillah@gmail.com';
+$siteOwnersEmail = 'contact@palacemedia.ma';
 
 
 if($_POST) {

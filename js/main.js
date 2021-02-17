@@ -327,7 +327,7 @@
         
         /* local validation */
         $('#contactForm').validate({
-        
+            
             /* submit via ajax */
             submitHandler: function(form) {
     
@@ -396,7 +396,7 @@
     var clAjaxChimp = function() {
         
         $('#mc-form').ajaxChimp({
-            language: 'es',
+            language: 'en',
             url: cfg.mailChimpURL
         });
 

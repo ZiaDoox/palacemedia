@@ -165,7 +165,7 @@
       <div class="pricing pricing--yama">
         <div class="pricing__item pricing_standard">
           <h3 class="pricing__title">
-            Pack. BASIC
+            Pack. <br />BASIC
           </h3>
          <!-- <p class="pricing__sentence">Community Management (Instagram, Facebook)</p>-->
           <div class="pricing__img">
@@ -268,8 +268,8 @@
           <form
             name="contactForm"
             id="contactForm"
-            method="POST"
-            action=''
+            method="post"
+            action=""
             .0novalidate="novalidate"
           >
             <fieldset>
@@ -278,7 +278,24 @@
                   name="contactName"
                   type="text"
                   id="contactName"
+<<<<<<< HEAD
                   placeholder="Nom & Prenom"
+=======
+                  placeholder="Votre nom"
+                  value=""
+                  minlength="2"
+                  required=""
+                  aria-required="true"
+                  class="full-width"
+                />
+              </div>
+              <div class="form-field">
+                <input
+                  name="gerantName"
+                  type="text"
+                  id="gerantName"
+                  placeholder="Nom du gerant"
+>>>>>>> 512051525f8647345aff61e07b8c9f9f2e18aa4a
                   value=""
                   minlength="2"
                   required=""
@@ -396,24 +413,26 @@
     ================================================== -->
     <footer>
       <div class="row footer-main">
-        <div class="col-six tab-full left footer-desc">
+        <div class="col-md-six tab-full left footer-desc">
           <div class="footer-logo">
             <img src="./images/logo-edited.png" alt="">
           </div>
         </div>
 
-        <div class="col-six tab-full right footer-subscribe">
-          <h4>Contact</h4>
+        <div class="col-md-six tab-full right footer-subscribe">
+          <div class="subscribe-form">
+            <p>Imm 30 Appart 8 rue Moulay Ahmed Loukili, Hassan - Rabat
+            </p>
+          </div>
           <p>
-            Email: contact@palacemedia.ma
+            contact@palacemedia.ma
           </p>
-          <p>Telephone 1: +212688888888</p>
-          <p>Telephone 2: +212688888888</p>
+          <p>+212 770 221 718
+          </p>
+          <p>+212 688 888 888</p>
 
           
-          <div class="subscribe-form">
-            <p>Address: Avenue: ...</p>
-          </div>
+          
         </div>
       </div>
       <!-- end footer-main -->

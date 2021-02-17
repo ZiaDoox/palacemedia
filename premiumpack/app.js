@@ -89,16 +89,7 @@ const menu = [
     Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
     laboriosam excepturi! Quo, officia.`,
   },
-  {
-    id: 10,
-    title: "bison steak",
-    category: "Dîner",
-    price: 22.99,
-    img: "./images/item-10.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
-    laboriosam excepturi! Quo, officia.`,
-  },
+  
 ];
 // get parent element
 const sectionCenter = document.querySelector(".section-center");
@@ -143,7 +134,7 @@ function displayMenuButtons() {
   );
   const categoryBtns = categories
     .map(function (category) {
-      return `<button type="button" class="filter-btn" data-id=${category}>
+      return `<button type="button" class="filter-btn col-sm-3" data-id=${category}>
           ${category}
         </button>`;
     })

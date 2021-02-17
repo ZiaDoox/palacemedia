@@ -15,8 +15,7 @@
 
 
 <!-- BOOTSTRAP-->
-<link rel="stylesheet" href="assets/css/bootstrap.css"  type="text/css"/>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css" />
 
 <!--STYLESHEETS -->
@@ -33,8 +32,13 @@
 </head>
 <body>
 	<div class="landing">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			  <ul class="navbar-nav mx-auto">
 				<li class="nav-item active">
 				  <a class="nav-link" href="./index.html">Acceuil <span class="sr-only">(current)</span></a>
@@ -43,10 +47,10 @@
 				  <a class="nav-link" href="#">Menu</a>
 				</li>
 				<li class="nav-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Plats Speciaux
 				  </a>
-				  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="#">Fast Food</a>
 					<a class="dropdown-item" href="#">Burgers</a>
 					<a class="dropdown-item" href="#">Tacos</a>
@@ -55,27 +59,25 @@
 			  </ul>
 			</div>
 		  </nav>
-		<div class="container">
 			<div class="logo">
 				<a href="#"><img src="../images/logo-edited.png" alt=""></a>
 			</div>
-			<div class="landing-info">
+			<div class="landing-info pb-5">
 				<h1>NOUS FOURNISSONS LA MEILLEURE NOURRITURE
 					<span> Au bon prix.</span></h1>
 			</div>
-		</div>
 	</div>
-<div class="happy-hour" id="home">
-	<div class="col-md-3 happy-2">
+<div class="happy-hour row" id="home">
+	<div class="col-lg-3 happy-2">
 		<h4>Desserts</h4>
 	</div>
-	<div class="col-md-3 happy-2">
+	<div class="col-lg-3 happy-2">
 		<h4>Petit Dejeuner</h4>
 	</div>
-	<div class="col-md-3 happy-3">
+	<div class="col-lg-3 happy-3">
 		<h4>Dejeuner</h4>
 	</div>
-	<div class="col-md-3 happy-4">
+	<div class="col-lg-3 happy-4">
 		<h4>Diner</h4>
 	</div>
 		<div class="clearfix"></div>
@@ -83,42 +85,43 @@
 <div class="fast food" id="services">
 	<h2>Nos Plats Speciaux</h2>
 
-	<div class="container">
+	<div class="container-fluid row">
 
 		<div class="col-md-6 fast-left">
-			<img src="assets/img/fastfood.jpg" class="img-responsive" alt="">
+			<img src="assets/img/fastfood.jpg" class="img-fluid" alt="">
 		</div>
 		<div class="col-md-6 fast-right">
 			<h3>Fast Food</h3>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
 			<a class="view" href="#">VIEW GALLERY<i class="arrow1"></i></a>
 		</div>
-				<div class="clearfix"></div>
-			<div class="fast-foo">
+		<div class="clearfix"></div>
+		<div class="fast-foo row">
 				<div class="col-md-6 fast-right1">
 					<h3>Desserts</h3>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
 					<a class="view" href="#">VIEW GALLERY<i class="arrow1"></i></a>
 				</div>
 				<div class="col-md-6 fast-left1">
-					<img src="assets/img/drinks.jpg" class="img-responsive" alt="">
+					<img src="assets/img/drinks.jpg" class="img-fluid" alt="">
 				</div>
 					<div class="clearfix"></div>
-			</div>
-			<div class="col-md-6 fast-left">
-				<img src="assets/img/tajine.jpg" class="img-responsive" alt="">
-			</div>
-			<div class="fast-foo">
-			<div class="col-md-6 fast-right mt-4">
-				<h3>Tajines</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
-				<a class="view" href="#">VIEW GALLERY<i class="arrow1"></i></a>
-			</div>
+		</div>
+
+		<div class="col-md-6 fast-left mt-5">
+				<img src="assets/img/tajine.jpg" class="img-fluid" alt="">
+		</div>
+		<div class="clearfix"></div>
+
+		<div class="col-md-6 fast-right mt-4">
+			<h3>Tajines</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
+			<a class="view" href="#">VIEW GALLERY<i class="arrow1"></i></a>
 		</div>
 	</div>
 </div>
 <div class="foods" id="types of food">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="food">
 			<div class="product-tabs">
 				    <div id="horizontalTab">
@@ -132,31 +135,31 @@
 							  <ul id="flexiselDemo3">
 								<li>
 									<div class="food">
-										<img src="assets/img/chickenBurger.jpg" class="img-responsive" alt="" />
+										<img src="assets/img/chickenBurger.jpg" class="img-fluid" alt="" />
 										<h4>Chicken Burger</h4>
 									</div>
 								</li>
 								<li>
 									<div class="food">
-										<img src="assets/img/beefBurger.jpg" class="img-responsive" alt="" />
+										<img src="assets/img/beefBurger.jpg" class="img-fluid" alt="" />
 										<h4>Beef Burger</h4>
 									</div>
 								</li>
 								<li>
 									<div class="food">
-										<img src="assets/img/chickenPizza.jpg" class="img-responsive" alt="" />
+										<img src="assets/img/chickenPizza.jpg" class="img-fluid" alt="" />
 										<h4>Chicken Pizza</h4>
 									</div>
 								</li>
 								<li>
 									<div class="food">
-										<img src="assets/img/beefBurger.jpg" class="img-responsive" alt="" />
+										<img src="assets/img/beefBurger.jpg" class="img-fluid" alt="" />
 										<h4>Beef Burger</h4>
 									</div>
 								</li>
 								<li>
 									<div class="food">
-										<img src="assets/img/chickenPizza.jpg" class="img-responsive" alt="" />
+										<img src="assets/img/chickenPizza.jpg" class="img-fluid" alt="" />
 										<h4>Chicken Burger</h4>
 									</div>
 								</li>
@@ -276,12 +279,12 @@
 					<h2 class="text-center">Nos Clients Satisfait</h2>
 				</div>
 				<div class="row photos">
-					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/original/02_o_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
-					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190718/gallery/original/03_r_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
-					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190717/gallery/original/04_g_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
-					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/original/01_b_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
-					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/original/02_o_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
-					<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/original/01_b_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-md-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/original/02_o_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-md-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190718/gallery/original/03_r_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-md-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190717/gallery/original/04_g_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-md-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/original/01_b_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-md-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/original/02_o_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
+					<div class="col-sm-6 col-md-4 col-md-3 item"><a href="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/original/01_b_car.jpg" data-lightbox="photos"><img class="img-fluid" src="./assets/img/client-meal.jpg"></a></div>
 				</div>
 			</div>
 		</div>
