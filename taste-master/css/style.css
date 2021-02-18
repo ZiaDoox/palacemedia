@@ -301,6 +301,10 @@ textarea.form-control {
       height: 50px !important;
       width: 50px !important;
     }
+
+    .ftco-section {
+      padding: 1rem !important;
+    }
   }
   @media screen and (max-width: 960px) {
     .ftco-vh-100 {
