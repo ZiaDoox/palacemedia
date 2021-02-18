@@ -295,10 +295,11 @@ textarea.form-control {
     height: 125px !important;
     width: 125px !important;
   }
-
+@media (max-width: 800px) {
   .ftco_navbar {
     background-color: #3C312E !important;
   }
+}
 
   @media (max-width: 500px) {
     .navbar-brand img {
