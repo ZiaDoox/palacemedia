@@ -61,6 +61,8 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
 
 html {
     font-size: 10px;
@@ -429,9 +431,12 @@ img.pull-left {
 }
 
 .site-logo img {
-    max-width: 187px !important;
-    max-height: 88px !important;
+    max-width: 190px !important;
+    max-height: 127px !important;
+    margin-top: 7rem;
+    margin-left: 3rem;
 }
+
 
 /* ------------------------------------------------------------------- 
  * ## tables
@@ -1557,18 +1562,20 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .display-1 {
         font-size: 6.5rem;
     }
     .display-2 {
         font-size: 4rem;
     }
-    .site-logo {
-        width: 55px !important;
-        height: 70px !important;
+    .site-logo img {
+        margin-top: 4.8rem;
+        margin-left:.5rem;
+
     }
 }
+
 
 @media only screen and (max-width: 600px) {
     .display-1 {
@@ -1580,9 +1587,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .subhead {
         font-size: 1.5rem;
     }
-    .site-logo {
-        width: 45px !important;
-        height: 60px !important;
+    .site-logo img{
+        margin-top: 4.8rem;
+        margin-left: .3rem;
+
     }
 }
 
@@ -1604,6 +1612,27 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     margin-bottom: 3.6rem;
     max-width: 960px;
+}
+
+.section-header .pack-surmesure h1 {
+    color: #fff !important;
+}
+.section-header p {
+    color: #fff;
+}
+
+.pack-surmesure {
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        padding: 5rem;
+    border-radius: 5px;
+}
+
+.section-header h1 {
+    margin-top: 1rem !important;
+    margin-bottom: 5rem !important;
 }
 
 .section-header.has-bottom-sep {
@@ -2099,7 +2128,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "montserrat", sans-serif;
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
@@ -2113,7 +2142,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__main-p {
     color: #fff;
-    font-family: 'Khula', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+@media (max-width: 750px) {
+    .home-content__main-p {
+        font-size: 1.5rem;
+    }
 }
 
 .home-content__main-p span {

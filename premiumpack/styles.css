@@ -100,7 +100,7 @@ footer .row {
 .footerlogo-title {
   text-align: center;
   color: rgb(231, 231, 231) !important;
-  font-family: 'B';
+  font-family: 'montserrat', sans-serif;
 }
 
 /* ---------------------------------------------------------------
@@ -177,7 +177,8 @@ footer .row {
 }
 .footer-subscribe {
   text-align: right;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  padding-right: 1rem;
   font-family: 'Montserrat', sans-serif;
 }
 

@@ -46,7 +46,7 @@
           <img src="./images/logo-edited.png" alt="Homepage" />
         </a>
       </div>
-
+      <!--
       <nav class="header-nav">
         <a href="#0" class="header-nav__close" title="close"
           ><span>Fermer</span></a
@@ -78,14 +78,12 @@
             </li>
           </ul>
         </div>
-        <!-- end header-nav__content -->
       </nav>
-      <!-- end header-nav -->
 
       <a class="header-menu-toggle" href="#0">
         <span class="header-menu-text">Menu</span>
         <span class="header-menu-icon"></span>
-      </a>
+      </a> -->
     </header>
     <!-- end s-header -->
 
@@ -136,21 +134,7 @@
       </div>
       <!-- end home-content -->
 
-      <ul class="home-social">
-        <li>
-          <a href="#0"
-            ><i class="fa fa-facebook" aria-hidden="true"></i
-            ><span>Facebook</span></a
-          >
-        </li>
-        <li>
-          <a href="#0"
-            ><i class="fa fa-instagram" aria-hidden="true"></i
-            ><span>Instagram</span></a
-          >
-        </li>
-      </ul>
-      <!-- end home-social -->
+    <!-- end home-social -->
     </section>
     <!-- end s-home -->
 
@@ -159,9 +143,8 @@
     <section class="pricing-section" id="about">
       <div class="row section-header" data-aos="fade-up">
         <div class="col-full">
-          <h3 class="subhead">Nos packs</h3>
-          <h1>Community Management (Facebook + Instagram) Inclus</h1>
-        </div>
+          <h1 class="subhead">Nos packs</h1>
+      </div>
       </div>
       <div class="pricing pricing--yama">
         <div class="pricing__item pricing_standard">
@@ -217,6 +200,11 @@
           <button class="pricing__action"><a href="./goldpack/index.html">Voir exemple</a></button>
         </div>
       </div>
+      <div class="row section-header">
+        <div class="col-full">
+          <h1>Community Management (Facebook + Instagram) Inclus</h1>
+        </div>
+      </div>
     </section>
     <!-- end-packs -->
 
@@ -228,12 +216,14 @@
 
       <div class="row section-header" data-aos="fade-up">
         <div class="col-full">
-          <h3 class="subhead gold">Pack. SUR MESURE</h3>
-          <h1 class="display-2 display-2--light">
-            Si vous avez des idées pour votre site sur mesure notre équipe est là pour les
-concrétisées.
-          </h1>
-          <p>Pour plus d&#39;informations contactez-nous pour avoir
+          <div class="pack-surmesure">
+            <h3 class="subhead gold">Pack. SUR MESURE</h3>
+            <h1 class="display-2 display-2--light">
+              Si vous avez des idées pour votre site sur mesure notre équipe est là pour les
+  concrétisées.
+            </h1>
+          </div>
+          <p class="h2">Pour plus d&#39;informations contactez-nous pour avoir
             vos devis.</p>
         </div>
       </div>
@@ -272,20 +262,7 @@ concrétisées.
                   name="contactName"
                   type="text"
                   id="contactName"
-                  placeholder="Votre nom"
-                  value=""
-                  minlength="2"
-                  required=""
-                  aria-required="true"
-                  class="full-width"
-                />
-              </div>
-              <div class="form-field">
-                <input
-                  name="gerantName"
-                  type="text"
-                  id="gerantName"
-                  placeholder="Nom du gerant"
+                  placeholder="Nom & Prenom"
                   value=""
                   minlength="2"
                   required=""
@@ -298,7 +275,7 @@ concrétisées.
                   name="contactEmail"
                   type="email"
                   id="contactEmail"
-                  placeholder="Votre email"
+                  placeholder="Email"
                   value=""
                   required=""
                   aria-required="true"
@@ -310,7 +287,7 @@ concrétisées.
                     name="contactSociete"
                     type="text"
                     id="contactSociete"
-                    placeholder="Le nom de votre restaurant"
+                    placeholder="Le nom du restaurant"
                     value=""    
                     class="full-width" />
               </div>
@@ -319,7 +296,7 @@ concrétisées.
                     name="contactPhone"
                     type="text"
                     id="contactPhone"
-                    placeholder="Numero de Telephone"
+                    placeholder="Telephone"
                     value=""
                     class="full-width" />
               </div>
@@ -327,7 +304,7 @@ concrétisées.
                 <textarea
                   name="contactMessage"
                   id="contactMessage"
-                  placeholder="Votre message"
+                  placeholder="Message"
                   rows="1"
                   cols="50"
                   required=""

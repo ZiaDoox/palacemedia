@@ -1,10 +1,10 @@
 const menu = [
   {
     id: 1,
-    title: "buttermilk pancakes",
-    category: "Petit Déjeuner",
-    price: 15.99,
-    img: "./images/item-1.jpeg",
+    title: "Tajines Poisson",
+    category: "Tajines",
+    price: 80,
+    img: "./images/item-11.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
     laboriosam excepturi! Quo, officia. `,
@@ -12,7 +12,7 @@ const menu = [
   {
     id: 2,
     title: "diner double",
-    category: "Déjeuner",
+    category: "Diner",
     price: 13.99,
     img: "./images/item-2.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -22,8 +22,8 @@ const menu = [
   {
     id: 3,
     title: "godzilla milkshake",
-    category: "shakes",
-    price: 6.99,
+    category: "Boissons",
+    price: 30,
     img: "./images/item-3.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
@@ -31,10 +31,10 @@ const menu = [
   },
   {
     id: 4,
-    title: "country delight",
-    category: "Petit Déjeuner",
+    title: "Tajine Poulet",
+    category: "Tajines",
     price: 20.99,
-    img: "./images/item-4.jpeg",
+    img: "./images/item-12.jpg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
     laboriosam excepturi! Quo, officia. `,
@@ -52,8 +52,8 @@ const menu = [
   {
     id: 6,
     title: "oreo dream",
-    category: "shakes",
-    price: 18.99,
+    category: "Boissons",
+    price: 25,
     img: "./images/item-6.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
@@ -62,8 +62,8 @@ const menu = [
   {
     id: 7,
     title: "bacon overflow",
-    category: "Petit Déjeuner",
-    price: 8.99,
+    category: "Déjeuner",
+    price: 30,
     img: "./images/item-7.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
@@ -82,8 +82,8 @@ const menu = [
   {
     id: 9,
     title: "quarantine buddy",
-    category: "shakes",
-    price: 16.99,
+    category: "Boissons",
+    price: 20,
     img: "./images/item-9.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
@@ -91,6 +91,8 @@ const menu = [
   },
   
 ];
+
+
 // get parent element
 const sectionCenter = document.querySelector(".section-center");
 const btnContainer = document.querySelector(".btn-container");
@@ -102,7 +104,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
 function diplayMenuItems(menuItems) {
   let displayMenu = menuItems.map(function (item) {
-    // console.log(item);
 
     return `<article class="menu-item">
           <img src=${item.img} alt=${item.title} class="photo" />
@@ -130,11 +131,11 @@ function displayMenuButtons() {
       }
       return values;
     },
-    ["all"]
+    ["Tout"]
   );
   const categoryBtns = categories
     .map(function (category) {
-      return `<button type="button" class="filter-btn col-sm-3" data-id=${category}>
+      return `<button type="button" class="filter-btn col-sm-2" data-id=${category}>
           ${category}
         </button>`;
     })
@@ -154,7 +155,7 @@ function displayMenuButtons() {
           return menuItem;
         }
       });
-      if (category === "all") {
+      if (category === "Tout") {
         diplayMenuItems(menu);
       } else {
         diplayMenuItems(menuCategory);
