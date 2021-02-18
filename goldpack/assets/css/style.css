@@ -905,6 +905,30 @@ min-height: 228px;
 min-height: 228px;
 }
 }
+
+/* Custom Bootstrap Tabs Styles */
+
+#myTab {
+	color: #000 !important;
+	background-color:rgba(243, 85, 53, 0.87);
+}
+
+#myTab li a {
+	color: #000 !important;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+}
+
+#myTab li a:hover {
+	color: #fff !important;
+	background:rgb(243, 85, 53);
+}
+
+#myTab li a.active {
+	color: #000 !important;
+}
+
+
 /*--responsive design--*/
 @media (max-width:768px){
 .menu_box_list ul li {
