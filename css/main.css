@@ -1571,7 +1571,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-bottom: 1rem;
     text-align: center;
 }
-
+.subhead.gold {
+    color: goldenrod !important;
+}
 .subhead--dark {
     color: #FFF;
 }
