@@ -2,7 +2,7 @@ const menu = [
   {
     id: 1,
     title: "Tajines Poisson",
-    category: "Tajines",
+    category: "PetitDéjeuner",
     price: 80,
     img: "./images/item-11.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -11,8 +11,8 @@ const menu = [
   },
   {
     id: 2,
-    title: "diner double",
-    category: "Diner",
+    title: "Déjeuner Marocain",
+    category: "Déjeuner",
     price: 13.99,
     img: "./images/item-2.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -32,7 +32,7 @@ const menu = [
   {
     id: 4,
     title: "Tajine Poulet",
-    category: "Tajines",
+    category: "Diner",
     price: 20.99,
     img: "./images/item-12.jpg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -104,7 +104,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 function diplayMenuItems(menuItems) {
   let displayMenu = menuItems.map(function (item) {
-
+    item.category.split(' ').join('');
     return `<article class="menu-item">
           <img src=${item.img} alt=${item.title} class="photo" />
           <div class="item-info">
@@ -119,7 +119,7 @@ function diplayMenuItems(menuItems) {
         </article>`;
   });
   displayMenu = displayMenu.join("");
-  // console.log(displayMenu);
+  //console.log(displayMenu);
 
   sectionCenter.innerHTML = displayMenu;
 }
@@ -135,9 +135,15 @@ function displayMenuButtons() {
   );
   const categoryBtns = categories
     .map(function (category) {
+      if(category === 'PetitDéjeuner') {
+        return `<button type='button' class='filter-btn col-sm-2' data-id='Petit Déjeuner'>
+          Petit Déjeuner
+        </button>`;
+      }else {
       return `<button type="button" class="filter-btn col-sm-2" data-id=${category}>
           ${category}
         </button>`;
+      }
     })
     .join("");
 
@@ -147,11 +153,11 @@ function displayMenuButtons() {
 
   filterBtns.forEach(function (btn) {
     btn.addEventListener("click", function (e) {
-      // console.log(e.currentTarget.dataset);
+      console.log(e.currentTarget.dataset);
       const category = e.currentTarget.dataset.id;
       const menuCategory = menu.filter(function (menuItem) {
-        // console.log(menuItem.category);
-        if (menuItem.category === category) {
+        //console.log(menuItem.category);
+        if (menuItem.category.split(' ').join('') === category.split(' ').join('')) {
           return menuItem;
         }
       });
