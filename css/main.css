@@ -1711,6 +1711,17 @@ background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10
     .section-header.has-bottom-sep::before {
         width: 400px;
     }
+    .subhead {
+        font-size: 29px;
+        padding-top: 3rem; 
+    }
+
+    .contact-secondary {
+        max-height: 500px;
+    }
+    .contact-primary {
+        padding: 1rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
