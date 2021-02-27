@@ -1533,6 +1533,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: 0;
 }
 
+.callToAction {
+    margin-top: 8rem !important;
+}
+
 .display-1--light {
     color: #FFFFFF;
 }
@@ -1541,8 +1545,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-medium", sans-serif;
     font-size: 3.2rem;
     line-height: 1.255;
-    color: #000000;
-    margin-top: 5rem;
+    margin-top: 6rem !important;
 }
 
 .display-2 p {
@@ -1653,6 +1656,7 @@ background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10
 
         padding: 5rem;
     border-radius: 5px;
+    text-align: center;
 }
 
 .section-header h1 {
