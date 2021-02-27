@@ -1002,7 +1002,7 @@ select {
 }
 
 textarea {
-    min-height: 25rem;
+    min-height: 20rem;
 }
 
 input[type="email"]:focus,
@@ -1539,10 +1539,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .display-2 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 5.2rem;
+    font-size: 3.2rem;
     line-height: 1.255;
     color: #000000;
-    margin-top: 0;
+    margin-top: 5rem;
 }
 
 .display-2 p {
@@ -1564,8 +1564,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     text-transform: uppercase;
     letter-spacing: .25rem;
     color: goldenrod;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
 }
 
 .subhead--dark {
@@ -3398,7 +3399,7 @@ html.no-csstransitions .home-content__main {
 .contact-content select {
     color: rgb(255, 255, 255);
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-    margin-bottom: .9rem;
+    margin-bottom: 0rem;
 }
 
 .contact-content input[type="email"]:focus,
@@ -3416,7 +3417,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content button,
 .contact-content .btn {
-    margin-top: 3.6rem;
+    
 }
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
@@ -3449,12 +3450,19 @@ html.no-csstransitions .home-content__main {
 }
 .contact-primary, .contact-secondary {
     float: left;
-    padding: 0 5rem;
+    height: 600px;
+    padding: 2rem 5rem;
+}
+
+.contact-primary .textareaheight {
+    max-height: 10em;
+    resize: none;
 }
 
 .contact-primary {
-    width: 100%;
+    width: 65%;    
 }
+
 
 .contact-primary #contactForm {
     margin-top: -1.5rem;
@@ -3462,6 +3470,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-primary h3 {
     text-align: center;
+    font-size: 10px !important;
 }
 
 .contact-secondary {
