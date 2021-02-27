@@ -3804,6 +3804,10 @@ footer p {
 
 .footer-subscribe {
     margin-top: 15px;
+    width: 50%;
+}
+.footer-desc {
+    width: 50%;
 }
 
 .footer-subscribe .subscribe-form {
