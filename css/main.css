@@ -1562,13 +1562,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead {
     font-family: 'Bebas Neue', cursive;    
-    font-size: 3.7rem;
-    line-height: 1.333;
+    font-size: 6.7rem;
+    line-height: 1;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: goldenrod;
+    color: rgb(44, 32, 73);
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
