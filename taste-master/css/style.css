@@ -88,6 +88,9 @@ h1, h2, h3, h4, h5,
     margin-top: -130px;
     background: #fff !important; }
     @media screen and (max-width: 768px) {
+      .ftco-footer {
+        text-align: center !important;
+      }
       .ftco-navbar-light.scrolled .navbar-nav {
         background: none;
         border-radius: 0px;
