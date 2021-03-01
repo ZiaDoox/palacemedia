@@ -697,8 +697,7 @@ form,
     color: #fff;
 }
 .pricing--yama .pricing_standard {
-    background: hsla(183, 100%, 80%, 1);
-
+    background-color: rgb(153, 250, 255);
 }
 
 .pricing--yama .pricing_standard .pricing__title {
