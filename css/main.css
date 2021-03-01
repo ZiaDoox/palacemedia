@@ -3378,6 +3378,8 @@ html.no-csstransitions .home-content__main {
     font-size: 1.5rem;
     line-height: 2;
     position: relative;
+    border-radius: 10px;
+    
 }
 
 .contact-content h3 {
@@ -3650,11 +3652,16 @@ html.no-csstransitions .home-content__main {
     .contact-content {
         max-width: 900px;
     }
+    .pack-surmesure .display-2 {
+        font-size: 25px !important;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     .contact-content {
         max-width: 700px;
+        padding: 5px;
+
     }
     .contact-primary, .contact-secondary {
         float: none;
@@ -3673,6 +3680,9 @@ html.no-csstransitions .home-content__main {
     .message-warning, .message-success {
         margin-bottom: 6rem;
     }
+    .pack-surmesure .display-2 {
+        font-size: 25px !important;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -3681,7 +3691,9 @@ html.no-csstransitions .home-content__main {
     }
     .contact-content {
         padding-bottom: 3rem !important;
+        padding: 5px;
     }
+    
     
 }
 
