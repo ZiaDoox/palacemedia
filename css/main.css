@@ -687,13 +687,6 @@ form,
 .pricing--yama .pricing_premium {
     background: hsla(183, 86%, 35%, 1);
 
-background: linear-gradient(0deg, hsla(183, 86%, 35%, 1) 0%, hsla(196, 100%, 27%, 1) 100%);
-
-background: -moz-linear-gradient(0deg, hsla(183, 86%, 35%, 1) 0%, hsla(196, 100%, 27%, 1) 100%);
-
-background: -webkit-linear-gradient(0deg, hsla(183, 86%, 35%, 1) 0%, hsla(196, 100%, 27%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0DA0A8", endColorstr="#00668B", GradientType=1 );
 }
 
 .pricing--yama .pricing_premium li {
@@ -706,13 +699,6 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0DA0A8", en
 .pricing--yama .pricing_standard {
     background: hsla(183, 100%, 80%, 1);
 
-background: linear-gradient(0deg, hsla(183, 100%, 80%, 1) 0%, hsla(183, 83%, 47%, 1) 30%, hsla(183, 86%, 35%, 1) 100%);
-
-background: -moz-linear-gradient(0deg, hsla(183, 100%, 80%, 1) 0%, hsla(183, 83%, 47%, 1) 30%, hsla(183, 86%, 35%, 1) 100%);
-
-background: -webkit-linear-gradient(0deg, hsla(183, 100%, 80%, 1) 0%, hsla(183, 83%, 47%, 1) 30%, hsla(183, 86%, 35%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#98FAFF", endColorstr="#14D0DA", GradientType=1 );
 }
 
 .pricing--yama .pricing_standard .pricing__title {
