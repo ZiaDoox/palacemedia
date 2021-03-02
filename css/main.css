@@ -3695,6 +3695,7 @@ html.no-csstransitions .home-content__main {
     .contact-primary, .contact-secondary {
         float: none;
         width: 100%;
+        margin: 1rem auto;
     }
     .contact-primary #contactForm {
         margin-top: -1.5rem;
@@ -3735,18 +3736,37 @@ html.no-csstransitions .home-content__main {
         height: 14.4rem;
         top: -7.2rem;
     }
-    .contact-content {
-        padding-bottom: 12rem;
+    .contact-primary {
+        padding-bottom: 0rem;
         text-align: center;
+        max-height: 540px !important;
+        border-radius: 0;
     }
     .contact-primary, .contact-secondary {
-        padding: 0 20px;
+        padding: 1rem 20px;
+    }
+    .pack-surmesure .display-2 {
+        margin-top: 12rem !important;
+    }
+    .callToAction {
+        font-size: 20px;
+        margin-top: 10rem !important;
+    }
+    .subhead {
+        font-size: 40px;
+        padding-top: 6rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .contact-primary, .contact-secondary {
-        padding: 0 5px;
+        padding: 5px 5px;
+    }
+    .pack-surmesure .display-2 {
+        margin-top: 3rem !important;
+    }
+    .callToAction {
+        font-size: 15px;
     }
 }
 
