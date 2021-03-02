@@ -71,7 +71,7 @@ html {
 
 span.bonus {
     font-family: 'PT Mono', monospace;
-    color: goldenrod;
+    color: #0087cc;
 }
 
 
@@ -3398,11 +3398,11 @@ html.no-csstransitions .home-content__main {
 .contact__line {
     display: block;
     width: 2px;
-    height: 16.4rem;
+    height: 13.4rem;
     background-color: #008DD5;
     position: absolute;
     left: 50%;
-    top: -10.2rem;
+    top: -7.2rem;
     margin-left: -1px;
 }
 
@@ -3744,8 +3744,8 @@ html.no-csstransitions .home-content__main {
         padding-bottom: 0;
     }
     .contact__line {
-        height: 14.4rem;
-        top: -7.2rem;
+        height: 13.4rem;
+        top: -3.2rem;
     }
     .contact-primary {
         padding-bottom: 0rem;
