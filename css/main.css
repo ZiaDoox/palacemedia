@@ -2233,8 +2233,9 @@ background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10
 
 .home-content__buttons .btn:hover, 
 .home-content__buttons .btn:focus {
-    background: #FFFFFF !important;
-    color: #000000;
+    background: #008DD5 !important;
+    color: #fff;
+    border-color: #008DD5;
 }
 
 .home-content__scroll {
@@ -2519,6 +2520,16 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
+    .pricing-section {
+        padding: 2rem;
+    }
+    .pricing-section .subhead {
+        padding: 1rem;
+        margin: auto;
+    }
+    .section-header {
+        margin: 1rem;
+    }
     .home-content h1 {
         font-size: 3.8rem;
     }
