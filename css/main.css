@@ -883,9 +883,10 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E4270", en
     text-transform: none;
     font-size: 15px !important;
 	margin: 0;
-	padding: 2em 1em;
+	padding: 1em 1em;
 	list-style: none;
 	color: #fff;
+    height: 212px !important;
 }
 
 .pricing_gold .pricing__feature-list {
