@@ -7,6 +7,8 @@ Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 
 /* Logo */
 
@@ -397,8 +399,8 @@ Menu
   }
 }
 .menu-logo img {
-  height: 200px;
-  width: 200px;
+  height: 175px;
+  width: 175px;
   margin: auto
 }
 
@@ -408,6 +410,11 @@ Menu
 .title {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.title h2 {
+  font-family: 'Architects Daughter', cursive;
+
 }
 .underline {
   width: 5rem;

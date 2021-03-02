@@ -1,8 +1,18 @@
 const menu = [
   {
+    id: 5,
+    title: "egg attack",
+    category: "PetitDéjeuner",
+    price: 22.99,
+    img: "./images/item-5.jpeg",
+    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
+    laboriosam excepturi! Quo, officia. `,
+  },
+  {
     id: 1,
     title: "Tajines Poisson",
-    category: "PetitDéjeuner",
+    category: "Déjeuner",
     price: 80,
     img: "./images/item-11.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -39,16 +49,7 @@ const menu = [
     Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
     laboriosam excepturi! Quo, officia. `,
   },
-  {
-    id: 5,
-    title: "egg attack",
-    category: "Déjeuner",
-    price: 22.99,
-    img: "./images/item-5.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
-    laboriosam excepturi! Quo, officia. `,
-  },
+ 
   {
     id: 6,
     title: "oreo dream",
