@@ -62,10 +62,16 @@
  @import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=PT+Mono&display=swap');
 
 
 html {
     font-size: 10px;
+}
+
+span.bonus {
+    font-family: 'PT Mono', monospace;
+        color: goldenrod;
 }
 
 @media only screen and (max-width: 400px) {
