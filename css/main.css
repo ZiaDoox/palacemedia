@@ -3493,7 +3493,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-primary {
-    width: 65%;    
+    width: 55%;    
 }
 
 
@@ -3507,7 +3507,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-secondary {
-    width: 33%;
+    width: 40%;
     margin-right: 5px;
 }
 
