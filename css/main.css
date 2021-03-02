@@ -686,8 +686,13 @@ form,
 	padding: 0 0 1.5em;
 	color: #fff;
     /* background: #102341; */
-    box-shadow: 2px 2px 10px grey;
     z-index: 1;
+}
+.pricing--yama .pricing__item:hover {
+    box-shadow: 2px 2px 10px grey;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
 }
 
 .pricing--yama .pricing_premium {
