@@ -62,7 +62,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=PT+Mono&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&family=PT+Mono&display=swap');
 
 
 html {
@@ -1152,9 +1152,10 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #008DD5;
-    border-color: #008DD5;
+    background: #0F2746;
+    border-color: #0F2746;
     color: #FFFFFF;
+    border-radius: 5px;
 }
 
 .btn.btn--primary:hover,
@@ -1541,7 +1542,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .callToAction {
-    margin-top: 8rem !important;
+    margin-top: 5rem !important;
 }
 
 .display-1--light {
@@ -2191,7 +2192,7 @@ background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10
 
 .home-content__main-p {
     color: #fff;
-    font-family: 'Lexend Mega', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media (max-width: 750px) {
@@ -3326,7 +3327,7 @@ html.no-csstransitions .home-content__main {
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-bottom: 12rem;
     color: rgb(255, 255, 255);
     position: relative;
@@ -3381,7 +3382,7 @@ html.no-csstransitions .home-content__main {
 .contact__line {
     display: block;
     width: 2px;
-    height: 20.4rem;
+    height: 16.4rem;
     background-color: #008DD5;
     position: absolute;
     left: 50%;
@@ -3500,7 +3501,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-secondary {
-    width: 35%;
+    width: 33%;
+    margin-right: 5px;
 }
 
 .contact-secondary::before {
@@ -3512,6 +3514,7 @@ html.no-csstransitions .home-content__main {
     bottom: 0;
     right: 0;
     background-color: #121212;
+    border-radius: 10px;
 }
 
 .contact-secondary .contact-info {
