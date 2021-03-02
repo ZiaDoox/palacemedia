@@ -71,8 +71,10 @@ html {
 
 span.bonus {
     font-family: 'PT Mono', monospace;
-        color: goldenrod;
+    color: goldenrod;
 }
+
+
 
 @media only screen and (max-width: 400px) {
     html {
